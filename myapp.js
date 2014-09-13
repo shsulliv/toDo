@@ -21,7 +21,6 @@ $(document).ready(function(){
         newText = answer.val();
         counter = counter+1; 
 
-        $("#taskHere").append("<li>" + newText + "</li>"); //adds task items to the page as list
         abref.setEdge(Appbase.create('misc', Appbase.uuid()), newText);
         
         answer.val(""); //makes text in input box disappear after being submitted
