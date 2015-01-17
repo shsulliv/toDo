@@ -1,0 +1,47 @@
+html {
+    background-color: #FFF68F;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #FF8267;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+}
+
+#theForm {
+    text-align: center;
+}
+
+#newTask {
+    font-family: 'Muli', sans-serif;
+    background-color: #FFFEF5;
+    color: grey;
+    border-style: none;
+    border-color: #D3AFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit {
+    font-family: 'Muli', sans-serif;
+    background-color: #8FFFB9;
+    border-style: none;
+    color: #F6FFF9;
+}
+
+#tasks {
+    font-family: 'Muli', sans-serif;
+    background-color: #FFFEF5;
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    text-align: auto;
+}
+
+li:hover {
+            background: #DDC1FF;
+}
